@@ -1,2 +1,4 @@
 obj-$(CONFIG_ARM_PMU) += arm_pmu.o
-obj-$(CONFIG_HISI_PERFCTR) += hisilicon/
+obj-$(CONFIG_XGENE_PMU) += xgene_pmu.o
+obj-$(CONFIG_ARM_PMU_ACPI) += arm_pmu_acpi.o
+obj-$(CONFIG_HISI_PMU) += hisilicon/
