@@ -16,12 +16,59 @@
 / {
 	model = "Hisilicon Hi1616 Product Board";
 	compatible = "hisilicon,hi1616";
-
+/*
 	memory@0 {
 		device_type = "memory";
 		reg = <0x0 0x00000000 0x0 0x40000000>;
 		numa-node-id = <0>;
 	};
+
+*/
+	memory@0-0 {
+		device_type = "memory";
+		reg = <0x0 0x0 0x0 0x40000000>;
+		numa-node-id = <0x0>;
+	};
+	memory@0-1 {
+		device_type = "memory";
+		reg = <0x20 0x40000000 0x3f 0xfc000000>;
+		numa-node-id = <0x0>;
+	};
+
+	memory@1 {
+		device_type = "memory";
+		reg = <0x40 0x00000000 0x1f 0xbc000000>;
+		numa-node-id = <0x1>;
+	};
+
+	memory@2 {
+		device_type = "memory";
+		reg = <0x42 0x00000000 0x1f 0xbc000000>;
+		numa-node-id = <0x2>;
+	};
+
+	memory@3 {
+		device_type = "memory";
+		reg = <0x44 0x40000000 0x1f 0xbc000000>;
+		numa-node-id = <0x3>;
+	};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	chosen {
 		bootargs = "rdinit=/init console=ttyAMA0,115200 earlycon=pl011,mmio32,0x602b0000 initrd=0x7000000,500M";
