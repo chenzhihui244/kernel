@@ -220,7 +220,7 @@ noconfig:
 	return err;
 }
 
-static int __init init_kgdboc(void)
+int __init init_kgdboc(void)
 {
 	/* Already configured? */
 	if (configured == 1)

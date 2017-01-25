@@ -2505,7 +2505,7 @@ static int pl011_register_port(struct uart_amba_port *uap)
 	ret = uart_add_one_port(&amba_reg, &uap->port);
 	if (ret)
 		pl011_unregister_port(uap);
-
+	//init_kgdboc();
 	return ret;
 }
 

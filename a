@@ -1,0 +1,165 @@
+92d8047 {topost} hisi_sas: decrease running_req when internal IO timeout
+7405612 {topost} hisi_sas: fix NULL dereference in phy_down_v2_hw()
+3dcc944 {topost} hisi_sas: downgrade internal abort exit print
+d1b3a56 {topost} hisi_sas: fix sata io timeout issue
+5f17b1a {topost} hisi_sas: add PHY set linkrate support for v1 and v2
+72ef177 {topost} hisi_sas: use atomic64_t for hisi_sas_device.running_req
+21b66b3 {topost} hisi_sas: check sata fis when directly attaching sata device
+e9d76e1 IB/hns: Fix for Checkpatch.pl comment style errors
+c4054b8 {topost} net: hns: map the dma address based on ring
+2168ffd {topost} arm64: dts: hip06: fix sas0 stream id
+0758055 {topost} arm64: dts: hip06: disable sas0 and sas2 for d03
+8056266 {fromlist} arm64: arch timer: Add timer erratum property for Hip05-d02 and Hip06-d03
+1b6f61b {fromlist} arm64: arch_timer: Work around QorIQ Erratum Hisilicon-161x01
+5722d72 {fromlist} arm64: arch_timer: Add device tree binding for hisilicon-161x01 erratum
+4f204b8 {topost} arm64:dts:hip07: Support L3C and MN PMU in hip07.
+bf8403f {topost} arm64:dts:hip06: Change module_id property to array for L3 cache PMU.
+577763e {topost} arm64:dts:hip05: Change module_id property to array for L3 cache PMU.
+13d54bd {topost} arm64:perf: Modify DT bindings for L3C and MN PMU to support hip07.
+d6fa9e5 {topost} arm64:perf: Support for L3C PMU in hip07 chip.
+214e9a6 {topost} arm64:djtag: Suffix a unique ID to djtag host dev name
+9b58c1b {topost} arm64:perf: Correct event update to handle prev_count.
+630f975 {topost} arm64:perf: Handle djtag and L3C and MN PMU removal.
+c1bfa09 {topost} arm64:perf: Remove empty PMU disable and enable routines.
+5fd4959 {topost} arm64:perf: Correct event code numbering for L3C PMU.
+a97c418 {topost} arm64:dts:hip06: Correct property name as per DT bindings for L3C PMU.
+aaafe5f {topost} arm64:dts:hip05: Correct property name as per DT bindings for L3C PMU.
+3662fe0 {topost} arm64:perf: Use eventen and evctrl properties for L3C PMU.
+9d5b366 {topost} arm64:perf: Correct DT bindings for L3C and MN PMU.
+b48dc0a0 {topost} arm64:dts:hip06: Remove sysctl node as djtag now use ioremap.
+d5f72fd {topost} arm64:dts:hip05: Remove sysctl node as djtag now use ioremap.
+b1ed4f5 {topost} arm64:djtag: Remove syscon and use ioremap for sysctl. 	1. Use ioremap for sysctl registers in djtag. 	2. Correct some NIT
+a989cf8 {topost} arm64:dts:binding: remove syscon for cpu sysctrl. 	1. sysctrl registers are not handled as syscon but djtag will now 		ioremap the CPU sysctl registers for accessing all connecting 		components.
+45e8127 {topost} arm64:dts:hip06: Add DT node for DDRC PMU.
+39210e2 {topost} arm64:dts:hip05: Add DT nodes for DDRC PMU.
+7fe672c {topost} arm64:perf: Support for DDRC PMU.
+9ef77f8 {topost} arm64:perf: Device tree bindings for DDRC PMU.
+281c049 {topost} arm64:perf: Documentation for DDRC event counting.
+8321d09 {topost} arm64:perf: Move set_event_period to lower layer.
+5e90f21 {topost} arm64:perf: Pass hw counter information as input to write counter.
+58bc0bc {topost} arm64:perf: Replace pr_ with dev_ for better debug information.
+2379d19 {topost} arm64:defconfig: enable HISI_DJTAG and HISI_PMU
+75960dc {topost} arm64:perf: Set CPU core to count MN events in perf.
+83f0a66 {topost} arm64:perf: Set CPU core to count L3 cache events in perf.
+dbb8d2c {topost} arm64:dts:hip05: Add MN PMU support
+2099433 {topost} arm64:dts:hip06: Add MN PMU support
+2b9dc3a {topost} arm64:perf: Miscellanous node(MN) event counting in perf
+56914af {topost} arm64:dts:hip06: Add L3 cache PMU support
+0314e36 {topost} arm64:dts:hip05: Add L3 cache PMU support
+64522c4 {topost} arm64:perf: L3 cache(LLC) event listing in perf
+d47e13d {topost} arm64:perf: Add support for Hisilicon SoC event counters
+75b3869 {topost} arm64:perf: Update Kconfig for Hisilicon PMU support
+3811dcc {topost} arm64:perf: Add Devicetree bindings for Hisilicon SoC PMU
+e8d9b16 {topost} arm64:perf: Add Documentation for HIP05/06/07 PMU event counting. 	1. Documentation for perf usage and PMU events.
+da91fa5 {topost} drivers:soc: Add support for Hisilicon Djtag driver
+c8ef3e2 {topost} Documentation:arm64: Add Hisilicon HiP05/06/07 Sysctrl and Djtag dts bindings
+389e935 {topost} PCI/ACPI: hisi: Add ACPI support for HiSilicon SoCs Host Controllers
+4a0d68d {topost} hisi_sas: Merge some codes from the branch topic-sas-4.8
+2e03329 {topost} hisi_sas:Modify hard reset for directed-attached disk
+f441e3d {topost} hisi_sas:alloc queue id of slot according to device id
+4a05d7b {topost} hisi_sas: fix bugs on softreset
+c963967 {topost} hisi_sas: modify error handle of some error codes
+27596ff {topost} hisi_sas: make sas address of sata disks unique
+a3b8632 {topost} hisi_sas: check sata fis when directly attaching sata device
+0cceff6 {topost} hisi_sas: print warn info when retry tmf 3 times
+917a426 {topost} hisi_sas: modify and add some sata commands
+34f711a {topost} hisi_sas: do some modifications to the value of registers when init registers
+326ac41 {noup} arm64: dts: hisi: add refclk node to hip06 dts files for SAS
+c0f9c47 {topost} hisi_sas: add v2 hw support for different refclk
+1bced86 {topost} hisi_sas: Delete repeated configure items when free device
+151872d7 {topost} hisi_sas: modify return value of query task
+6b9a1fe {topost} hisi_sas: replace WARN_ON with debug print instead
+fd78cde {topost} hisi_sas: modify some values of itct table
+cc1ca62 {topost} hisi_sas: fix port form bug
+30bc98a {topost} hisi_sas: only process broadcast change
+af7e8d2 {topost} hisi_sas: add support for hip07
+b7af712 {topost} devicetree: bindings: scsi: support hisi_sas hip07
+123bc06 arm64: dts: hisi: fix hip06 sas am-max-trans quirk
+560c89c {topost} hisi_sas:fix link fifo full issue.
+449abf7 {topost} hisi_sas: add bindings for fatal interrupt of v2
+7dc9f99 {topost} hisi_sas: add interrupt process for ecc and axi bus fatal error
+2abb2c3 {topost} hisi_sas: modify error process for some errors
+1fb0abf {topost} hisi_sas: add slot abort for sata disk
+f7ef4ad {noup} hisi_sas: initialize dev when dev found
+3baaf52 {topost} hisi_sas: add softreset function for sata disk
+31aee37 {topost} hisi_sas: add TMF success check
+6d431bf {topost} hisi_sas: add DIF support
+c33ca1c {noup}: hisi_sas: work around to support different frequency board
+abc2c8d {topost} IB/hns: Implement the add_gid/del_gid and optimize the GIDs management
+3f1f9fc {topost} dts: hisi: Add node_guid field in hip06.dtsi
+45001a9 {topost} dts: hisi: Add RoCE node info for hip06-d03
+2817e20c {topost} IB/hns: Change qpn allocation to round-robin mode.
+a973a47 {topost} IB/hns: Modify query info named port_num when querying RC QP
+138c2bd {topost} IB/hns: Modify the macro for the timeout when cmd process
+ffe2375 {topost} IB/hns: Fix the bug for qp state in hns_roce_v1_m_qp()
+e2c6442 {topost} IB/hns: Modify the condition of notifying hardware loopback
+87f9f4b {topost} IB/hns: add self loopback for CM
+0ae44d2 {topost} IB/hns: Optimize the logic of allocating memory using APIs
+f100f12 {topost} IB/hns: Add code for refreshing CQ CI using TPTR
+6071939 {topost} IB/hns: Add the interface for querying QP1
+3e4611f {fromtree} IB/hns: Move HNS RoCE user vendor structures
+04775ac {topost} net: hns: add unicast tcam table clear/set operation
+cbc82a0 {topost} net: hns: add multicast tcam table clear
+68cb9b42f {temphack} net: hns: fix the failure of loopback on evb debug port 1
+3fd1cba {topost} net: hns: modify tcam table of mask_key
+346d4b4 {topost} net: hns: modify tcam table of mac mc-entry
+917b95b {topost} net: hns: modify tcam table of mac mc-port
+af7a4c9 {topost} net: hns: modify table index to get mac entry
+bded57d {topost} net: hns: modify tcam table of mac uc-entry
+f0ae6db {topost} net: hns: modify tcam table and set mac key
+e922818 {topost} net: hns: modify buffer format of cpu data to le64
+7acbc24ee {topost} net: hns: fix the rx symbol error and l2_err bug
+170b733 {topost} net: hns: modify ethtool statistics value error
+ae6507b {topost} net: hns: delete redundant macro definition
+ac8337c {topost} net: hns: bug fix about restart auto-negotiation
+c5ef122 {topost} net: hns: set default mac pause time to 0xffff
+660bff3 {topost} net: hns: add promisc mode for hns
+50c16c4 {topost} net: hns: add fuzzy match of tcam table for hns
+a3168bd {topost} dts: hisi: hns adds mc-mac-mask property
+0e799a8 {topost} dts: hisi: hns adds mc-mac-mask property for evb board
+2fe40b6 {topost} Doc: hisi: hns adds mc-mac-mask property
+f82de4a {topost} arm64: defconfig: enable numa for arm64
+c673eea {fromlist} arm64/numa: support HAVE_MEMORYLESS_NODES
+8d62c43 {fromlist} mm/memblock: add a new function memblock_alloc_near_nid
+bf1cf6f {topost} arm64: smmu: add smmu node for v3
+abd2de2 {fromlist} tty: amba-pl011: Add earlycon support for SBSA UART
+2f26a31 {fromlist} arm64: dts: hisilicon: Add initial dts for Hip07 D05 board
+f13086b {fromlist} Documentation: arm64: Add Hisilicon Hip07 D05 dts binding
+f7fdd2a {fromlist} arm64: dts: hip06: Correct hardware pin number of usb node
+b168bd2 {topost} irqchip: fix the compile warning of gic
+a3f2155 {topost} Doc: hisi: mdio: add the subcrtl description
+14f17e0 {temphack} dts: hisi: add evb dts compile
+bbda93d {temphack} dts: hisi: CPUs startup by psci on EVB
+b5f20c7 {temphack} arm64: dts: hip06: add EVB support
+7b52cd3 {noup} dts: hisi: fix the bug of serdes base address
+5c17d6f {topost} arm64: defconfig: update for d02/d03
+4fb785c {topost} arm64: dts: fix the lbc compiling error for hip05
+a9d4710 {topost} arm64: dts: hip06: add pcie node for d03
+0e35755 {topost} arm64: dts: hip05: add pcie node for d02
+8745382 {topost} arm64: dts: hip05: add sas support for d03
+afcb863 {topost} arm64: dts: hip05: add sas support for d02
+17dcd4d {topost} arm64: dts: hip05: add hns support for d02
+6fd9679 {topost} arm64: dts: hip06: add hns support for d03
+49ac11a {topost} arm64: dts: hip06: Add support 32core support
+838b8d2 {topost} arm64: dts: Add initial dts for Hisilicon Hip06 D03 board
+dc17f76 {topost} arm64: dts: hip05: add usb/sata/i2c node
+e7972f2 {topost} arm64: dts: hip05: Add mbigen nodes
+2198698 {topost} irqchip/gic-v3: Change the irq number calculate method
+74610dd {topost} IRQ:Implement the auxiliary gic initial function
+a51842f {topost} IRQ:change some functions to support multi-gic
+6aa75e6 {topost} IRQ:store the irq number of per gic node
+f5d0efd {topost} IRQ:Create a list to store all of the gic node in system
+a3a35f3 {topost} Record die ID information to detect the gic in multi-gic system
+e3a5a3b {topost} Add a function to initial multi-gicd(auxiliary gic)
+88b2944 {topost} IRQ: Fix the irq number that gic can support
+cf20428 {noup} irqchip: mbigen-v1: init mbi-gen in arch_init
+a295a93 {noup} irqchip: mbigen-v1: configure the mbigen vector register
+b815497 {noup} irqchip: mbigen-v1: Hack the ITS and mbigen driver to support pv660 mbigen chip
+a337cd4 {noup} irqchip: mbigen-v1: implement the mbigen irq chip operation functions
+dd07d94 {noup} irqchip: mbigen-v1: create irq domain for each mbigen device
+f53290c {noup} irqchip: mbigen-v1: add platform device driver for mbigen device
+d2f44e3 {topost} ACPI: platform: setup MSI domain for ACPI based platform device
+4bd3bfa {topost} ACPI: platform-msi: retrieve dev id from IORT
+0df4897 {topost} drivers: iommu: add FWNODE_IOMMU fwnode type
+588c4ac {fromleg} acpi, apei, arm64: APEI initial support for aarch64.
+ec29876 {fromleg} acpi, apei, hest: Move HEST table initialization where it belongs.

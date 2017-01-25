@@ -12,13 +12,24 @@ config ARM_PMU
 	  Say y if you want to use CPU performance monitors on ARM-based
 	  systems.
 
-config HISI_PERFCTR
+config XGENE_PMU
+        depends on PERF_EVENTS && ARCH_XGENE
+        bool "APM X-Gene SoC PMU"
+        default n
+        help
+          Say y if you want to use APM X-Gene SoC performance monitors.
+
+config ARM_PMU_ACPI
+	def_bool y
+	depends on ARM_PMU && ACPI
+
+config HISI_PMU
 	bool "Enable hardware event counter support for HiSilicon SoC"
 	depends on HW_PERF_EVENTS && ARM64
-	select HISI_DJTAG
-	default n
+	depends on HISI_DJTAG
 	help
 	  Enable hardware event counter support for hardware event counters
-	  in Hisilicon Hi161x SoC. The hardware modules like LLC, MN1 and
+	  in Hisilicon hip05/06/07 SoC. The hardware modules like L3C, MN and
 	  DDRC have hardware events and counters.
+
 endmenu

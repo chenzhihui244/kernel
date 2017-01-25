@@ -295,7 +295,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x10000>;
 			enable-method = "psci";
-			next-level-cache = <&cluster0_l2>;
+			//next-level-cache = <&cluster0_l2>;
 			numa-node-id = <0>;
 		};
 
@@ -304,7 +304,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x10001>;
 			enable-method = "psci";
-			next-level-cache = <&cluster0_l2>;
+			//next-level-cache = <&cluster0_l2>;
 			numa-node-id = <0>;
 		};
 
@@ -313,7 +313,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x10002>;
 			enable-method = "psci";
-			next-level-cache = <&cluster0_l2>;
+			//next-level-cache = <&cluster0_l2>;
 			numa-node-id = <0>;
 		};
 
@@ -322,7 +322,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x10003>;
 			enable-method = "psci";
-			next-level-cache = <&cluster0_l2>;
+			//next-level-cache = <&cluster0_l2>;
 			numa-node-id = <0>;
 		};
 
@@ -331,7 +331,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x10100>;
 			enable-method = "psci";
-			next-level-cache = <&cluster0_l2>;
+			//next-level-cache = <&cluster0_l2>;
 			numa-node-id = <0>;
 		};
 
@@ -340,7 +340,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x10101>;
 			enable-method = "psci";
-			next-level-cache = <&cluster0_l2>;
+			//next-level-cache = <&cluster0_l2>;
 			numa-node-id = <0>;
 		};
 
@@ -349,7 +349,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x10102>;
 			enable-method = "psci";
-			next-level-cache = <&cluster0_l2>;
+			//next-level-cache = <&cluster0_l2>;
 			numa-node-id = <0>;
 		};
 
@@ -358,7 +358,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x10103>;
 			enable-method = "psci";
-			next-level-cache = <&cluster0_l2>;
+			//next-level-cache = <&cluster0_l2>;
 			numa-node-id = <0>;
 		};
 
@@ -367,7 +367,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x10200>;
 			enable-method = "psci";
-			next-level-cache = <&cluster0_l2>;
+			//next-level-cache = <&cluster0_l2>;
 			numa-node-id = <0>;
 		};
 
@@ -376,7 +376,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x10201>;
 			enable-method = "psci";
-			next-level-cache = <&cluster0_l2>;
+			//next-level-cache = <&cluster0_l2>;
 			numa-node-id = <0>;
 		};
 
@@ -385,7 +385,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x10202>;
 			enable-method = "psci";
-			next-level-cache = <&cluster0_l2>;
+			//next-level-cache = <&cluster0_l2>;
 			numa-node-id = <0>;
 		};
 
@@ -394,7 +394,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x10203>;
 			enable-method = "psci";
-			next-level-cache = <&cluster0_l2>;
+			//next-level-cache = <&cluster0_l2>;
 			numa-node-id = <0>;
 		};
 
@@ -403,7 +403,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x10300>;
 			enable-method = "psci";
-			next-level-cache = <&cluster0_l2>;
+			//next-level-cache = <&cluster0_l2>;
 			numa-node-id = <0>;
 		};
 
@@ -412,7 +412,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x10301>;
 			enable-method = "psci";
-			next-level-cache = <&cluster0_l2>;
+			//next-level-cache = <&cluster0_l2>;
 			numa-node-id = <0>;
 		};
 
@@ -421,7 +421,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x10302>;
 			enable-method = "psci";
-			next-level-cache = <&cluster0_l2>;
+			//next-level-cache = <&cluster0_l2>;
 			numa-node-id = <0>;
 		};
 
@@ -430,7 +430,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x10303>;
 			enable-method = "psci";
-			next-level-cache = <&cluster0_l2>;
+			//next-level-cache = <&cluster0_l2>;
 			numa-node-id = <0>;
 		};
 
@@ -439,7 +439,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x30000>;
 			enable-method = "psci";
-			next-level-cache = <&cluster1_l2>;
+			//next-level-cache = <&cluster1_l2>;
 			numa-node-id = <1>;
 		};
 
@@ -448,7 +448,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x30001>;
 			enable-method = "psci";
-			next-level-cache = <&cluster1_l2>;
+			//next-level-cache = <&cluster1_l2>;
 			numa-node-id = <1>;
 		};
 
@@ -457,7 +457,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x30002>;
 			enable-method = "psci";
-			next-level-cache = <&cluster1_l2>;
+			//next-level-cache = <&cluster1_l2>;
 			numa-node-id = <1>;
 		};
 
@@ -466,7 +466,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x30003>;
 			enable-method = "psci";
-			next-level-cache = <&cluster1_l2>;
+			//next-level-cache = <&cluster1_l2>;
 			numa-node-id = <1>;
 		};
 
@@ -475,7 +475,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x30100>;
 			enable-method = "psci";
-			next-level-cache = <&cluster1_l2>;
+			//next-level-cache = <&cluster1_l2>;
 			numa-node-id = <1>;
 		};
 
@@ -484,7 +484,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x30101>;
 			enable-method = "psci";
-			next-level-cache = <&cluster1_l2>;
+			//next-level-cache = <&cluster1_l2>;
 			numa-node-id = <1>;
 		};
 
@@ -493,7 +493,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x30102>;
 			enable-method = "psci";
-			next-level-cache = <&cluster1_l2>;
+			//next-level-cache = <&cluster1_l2>;
 			numa-node-id = <1>;
 		};
 
@@ -502,7 +502,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x30103>;
 			enable-method = "psci";
-			next-level-cache = <&cluster1_l2>;
+			//next-level-cache = <&cluster1_l2>;
 			numa-node-id = <1>;
 		};
 
@@ -511,7 +511,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x30200>;
 			enable-method = "psci";
-			next-level-cache = <&cluster1_l2>;
+			//next-level-cache = <&cluster1_l2>;
 			numa-node-id = <1>;
 		};
 
@@ -520,7 +520,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x30201>;
 			enable-method = "psci";
-			next-level-cache = <&cluster1_l2>;
+			//next-level-cache = <&cluster1_l2>;
 			numa-node-id = <1>;
 		};
 
@@ -529,7 +529,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x30202>;
 			enable-method = "psci";
-			next-level-cache = <&cluster1_l2>;
+			//next-level-cache = <&cluster1_l2>;
 			numa-node-id = <1>;
 		};
 
@@ -538,7 +538,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x30203>;
 			enable-method = "psci";
-			next-level-cache = <&cluster1_l2>;
+			//next-level-cache = <&cluster1_l2>;
 			numa-node-id = <1>;
 		};
 
@@ -547,7 +547,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x30300>;
 			enable-method = "psci";
-			next-level-cache = <&cluster1_l2>;
+			//next-level-cache = <&cluster1_l2>;
 			numa-node-id = <1>;
 		};
 
@@ -556,7 +556,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x30301>;
 			enable-method = "psci";
-			next-level-cache = <&cluster1_l2>;
+			//next-level-cache = <&cluster1_l2>;
 			numa-node-id = <1>;
 		};
 
@@ -565,7 +565,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x30302>;
 			enable-method = "psci";
-			next-level-cache = <&cluster1_l2>;
+			//next-level-cache = <&cluster1_l2>;
 			numa-node-id = <1>;
 		};
 
@@ -574,7 +574,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x30303>;
 			enable-method = "psci";
-			next-level-cache = <&cluster1_l2>;
+			//next-level-cache = <&cluster1_l2>;
 			numa-node-id = <1>;
 		};
 
@@ -583,7 +583,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x50000>;
 			enable-method = "psci";
-			next-level-cache = <&cluster2_l2>;
+			//next-level-cache = <&cluster2_l2>;
 			numa-node-id = <2>;
 		};
 
@@ -592,7 +592,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x50001>;
 			enable-method = "psci";
-			next-level-cache = <&cluster2_l2>;
+			//next-level-cache = <&cluster2_l2>;
 			numa-node-id = <2>;
 		};
 
@@ -601,7 +601,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x50002>;
 			enable-method = "psci";
-			next-level-cache = <&cluster2_l2>;
+			//next-level-cache = <&cluster2_l2>;
 			numa-node-id = <2>;
 		};
 
@@ -610,7 +610,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x50003>;
 			enable-method = "psci";
-			next-level-cache = <&cluster2_l2>;
+			//next-level-cache = <&cluster2_l2>;
 			numa-node-id = <2>;
 		};
 
@@ -619,7 +619,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x50100>;
 			enable-method = "psci";
-			next-level-cache = <&cluster2_l2>;
+			//next-level-cache = <&cluster2_l2>;
 			numa-node-id = <2>;
 		};
 
@@ -628,7 +628,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x50101>;
 			enable-method = "psci";
-			next-level-cache = <&cluster2_l2>;
+			//next-level-cache = <&cluster2_l2>;
 			numa-node-id = <2>;
 		};
 
@@ -637,7 +637,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x50102>;
 			enable-method = "psci";
-			next-level-cache = <&cluster2_l2>;
+			//next-level-cache = <&cluster2_l2>;
 			numa-node-id = <2>;
 		};
 
@@ -646,7 +646,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x50103>;
 			enable-method = "psci";
-			next-level-cache = <&cluster2_l2>;
+			//next-level-cache = <&cluster2_l2>;
 			numa-node-id = <2>;
 		};
 
@@ -655,7 +655,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x50200>;
 			enable-method = "psci";
-			next-level-cache = <&cluster2_l2>;
+			//next-level-cache = <&cluster2_l2>;
 			numa-node-id = <2>;
 		};
 
@@ -664,7 +664,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x50201>;
 			enable-method = "psci";
-			next-level-cache = <&cluster2_l2>;
+			//next-level-cache = <&cluster2_l2>;
 			numa-node-id = <2>;
 		};
 
@@ -673,7 +673,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x50202>;
 			enable-method = "psci";
-			next-level-cache = <&cluster2_l2>;
+			//next-level-cache = <&cluster2_l2>;
 			numa-node-id = <2>;
 		};
 
@@ -682,7 +682,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x50203>;
 			enable-method = "psci";
-			next-level-cache = <&cluster2_l2>;
+			//next-level-cache = <&cluster2_l2>;
 			numa-node-id = <2>;
 		};
 
@@ -691,7 +691,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x50300>;
 			enable-method = "psci";
-			next-level-cache = <&cluster2_l2>;
+			//next-level-cache = <&cluster2_l2>;
 			numa-node-id = <2>;
 		};
 
@@ -700,7 +700,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x50301>;
 			enable-method = "psci";
-			next-level-cache = <&cluster2_l2>;
+			//next-level-cache = <&cluster2_l2>;
 			numa-node-id = <2>;
 		};
 
@@ -709,7 +709,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x50302>;
 			enable-method = "psci";
-			next-level-cache = <&cluster2_l2>;
+			//next-level-cache = <&cluster2_l2>;
 			numa-node-id = <2>;
 		};
 
@@ -718,7 +718,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x50303>;
 			enable-method = "psci";
-			next-level-cache = <&cluster2_l2>;
+			//next-level-cache = <&cluster2_l2>;
 			numa-node-id = <2>;
 		};
 
@@ -727,7 +727,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x70000>;
 			enable-method = "psci";
-			next-level-cache = <&cluster3_l2>;
+			//next-level-cache = <&cluster3_l2>;
 			numa-node-id = <3>;
 		};
 
@@ -736,7 +736,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x70001>;
 			enable-method = "psci";
-			next-level-cache = <&cluster3_l2>;
+			//next-level-cache = <&cluster3_l2>;
 			numa-node-id = <3>;
 		};
 
@@ -745,7 +745,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x70002>;
 			enable-method = "psci";
-			next-level-cache = <&cluster3_l2>;
+			//next-level-cache = <&cluster3_l2>;
 			numa-node-id = <3>;
 		};
 
@@ -754,7 +754,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x70003>;
 			enable-method = "psci";
-			next-level-cache = <&cluster3_l2>;
+			//next-level-cache = <&cluster3_l2>;
 			numa-node-id = <3>;
 		};
 
@@ -763,7 +763,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x70100>;
 			enable-method = "psci";
-			next-level-cache = <&cluster3_l2>;
+			//next-level-cache = <&cluster3_l2>;
 			numa-node-id = <3>;
 		};
 
@@ -772,7 +772,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x70101>;
 			enable-method = "psci";
-			next-level-cache = <&cluster3_l2>;
+			//next-level-cache = <&cluster3_l2>;
 			numa-node-id = <3>;
 		};
 
@@ -781,7 +781,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x70102>;
 			enable-method = "psci";
-			next-level-cache = <&cluster3_l2>;
+			//next-level-cache = <&cluster3_l2>;
 			numa-node-id = <3>;
 		};
 
@@ -790,7 +790,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x70103>;
 			enable-method = "psci";
-			next-level-cache = <&cluster3_l2>;
+			//next-level-cache = <&cluster3_l2>;
 			numa-node-id = <3>;
 		};
 
@@ -799,7 +799,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x70200>;
 			enable-method = "psci";
-			next-level-cache = <&cluster3_l2>;
+			//next-level-cache = <&cluster3_l2>;
 			numa-node-id = <3>;
 		};
 
@@ -808,7 +808,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x70201>;
 			enable-method = "psci";
-			next-level-cache = <&cluster3_l2>;
+			//next-level-cache = <&cluster3_l2>;
 			numa-node-id = <3>;
 		};
 
@@ -817,7 +817,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x70202>;
 			enable-method = "psci";
-			next-level-cache = <&cluster3_l2>;
+			//next-level-cache = <&cluster3_l2>;
 			numa-node-id = <3>;
 		};
 
@@ -826,7 +826,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x70203>;
 			enable-method = "psci";
-			next-level-cache = <&cluster3_l2>;
+			//next-level-cache = <&cluster3_l2>;
 			numa-node-id = <3>;
 		};
 
@@ -835,7 +835,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x70300>;
 			enable-method = "psci";
-			next-level-cache = <&cluster3_l2>;
+			//next-level-cache = <&cluster3_l2>;
 			numa-node-id = <3>;
 		};
 
@@ -844,7 +844,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x70301>;
 			enable-method = "psci";
-			next-level-cache = <&cluster3_l2>;
+			//next-level-cache = <&cluster3_l2>;
 			numa-node-id = <3>;
 		};
 
@@ -853,7 +853,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x70302>;
 			enable-method = "psci";
-			next-level-cache = <&cluster3_l2>;
+			//next-level-cache = <&cluster3_l2>;
 			numa-node-id = <3>;
 		};
 
@@ -862,7 +862,7 @@
 			compatible = "arm,cortex-a57", "arm,armv8";
 			reg = <0x70303>;
 			enable-method = "psci";
-			next-level-cache = <&cluster3_l2>;
+			//next-level-cache = <&cluster3_l2>;
 			numa-node-id = <3>;
 		};
 		cluster0_l2: l2-cache0 {
@@ -971,6 +971,11 @@
 			num-pins=<1>;
 		};
 	};
+	
+	p0_lpc: lpc@a01b0000 {
+              compatible = "hisilicon,low-pin-count";                                                                                       reg = <0x0 0xa01b0000 0x0 0x10000>;
+	};
+
 /*		p0_mbigen_peri_a: interrupt-controller@40080000 {
 			compatible = "hisilicon,mbigen-v2";
 			reg = <0x0 0x40080000 0x0 0x10000>;
@@ -1047,14 +1052,14 @@
 		compatible = "arm,armv8-pmuv3";
 		interrupts = <1 7 4>;
 	};
-
 	soc {
-		compatible = "simple-bus";
-		#address-cells = <2>;
-		#size-cells = <2>;
-		ranges;
+      	
+	mpatible = "simple-bus";
+        #address-cells = <0x00000002>;
+        #size-cells = <0x00000002>;
+        ranges;
 
-		refclk200mhz: refclk200mhz {
+	refclk200mhz: refclk200mhz {
 			compatible = "fixed-clock";
 			#clock-cells = <0>;
 			clock-frequency = <200000000>;
@@ -1071,5 +1076,7 @@
 			clock-names = "uartclk", "apb_pclk";
 		};
 
-	};
+		};
+	
+	
 };
